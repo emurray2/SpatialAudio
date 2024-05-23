@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FILEHEADER</key>
+	<string>
+// Copyright (C) ___YEAR___ Evan Murray
+//
+// ___FILENAME___
+// ___TARGETNAME___
+// Created by ___FULLUSERNAME___ on ___DATE___.
+//
+// This file is part of ___TARGETNAME___.
+//
+// ___PROJECTNAME___ is an application designed to map descriptors of joint position to parameters in ambisonics renderers.
+//
+// ___PROJECTNAME___ is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// ___PROJECTNAME___ is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with ___PROJECTNAME___. If not, see &lt;https://www.gnu.org/licenses/&gt;.
+//
+</string>
+</dict>
+</plist>

@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<aj-snapshot>
+<alsa>
+  <client name="System">
+    <port id="0" />
+    <port id="1" />
+  </client>
+  <client name="Midi Through">
+    <port id="0" />
+  </client>
+  <client name="UC-33 USB MIDI Controller">
+    <port id="0">
+      <connection client="Pure Data" port="0" />
+    </port>
+    <port id="1">
+      <connection client="Pure Data" port="0" />
+    </port>
+  </client>
+  <client name="aj-snapshot" />
+  <client name="Client-129" />
+  <client name="Pure Data">
+    <port id="1" />
+  </client>
+  <client name="PipeWire-System" />
+  <client name="PipeWire-RT-Event" />
+</alsa>
+<jack>
+  <client name="system">
+    <port name="capture_1">
+      <connection port="quest_effects:in_1" />
+    </port>
+    <port name="capture_2">
+      <connection port="quest_effects:in_2" />
+    </port>
+    <port name="capture_3">
+      <connection port="quest_effects:in_3" />
+    </port>
+    <port name="capture_4">
+      <connection port="quest_effects:in_4" />
+    </port>
+    <port name="capture_5" />
+    <port name="capture_6" />
+    <port name="capture_7" />
+    <port name="capture_8" />
+    <port name="capture_9" />
+    <port name="capture_10" />
+    <port name="capture_11" />
+    <port name="capture_12" />
+    <port name="capture_13" />
+    <port name="capture_14" />
+    <port name="capture_15" />
+    <port name="capture_16" />
+    <port name="capture_17" />
+    <port name="capture_18" />
+    <port name="capture_19" />
+    <port name="capture_20" />
+    <port name="capture_21" />
+    <port name="capture_22" />
+    <port name="capture_23" />
+    <port name="capture_24" />
+    <port name="capture_25" />
+    <port name="capture_26" />
+    <port name="capture_27" />
+    <port name="capture_28" />
+    <port name="capture_29" />
+    <port name="capture_30" />
+    <port name="capture_31" />
+    <port name="capture_32" />
+    <port name="capture_33" />
+    <port name="capture_34" />
+    <port name="capture_35" />
+    <port name="capture_36" />
+    <port name="capture_37" />
+    <port name="capture_38" />
+    <port name="capture_39" />
+    <port name="capture_40" />
+    <port name="capture_41" />
+    <port name="capture_42" />
+    <port name="capture_43" />
+    <port name="capture_44" />
+    <port name="capture_45" />
+    <port name="capture_46" />
+    <port name="capture_47" />
+    <port name="capture_48" />
+  </client>
+  <client name="AllRADecoder">
+    <port name="out_1">
+      <connection port="system:playback_1" />
+    </port>
+    <port name="out_2">
+      <connection port="system:playback_2" />
+    </port>
+    <port name="out_3">
+      <connection port="system:playback_3" />
+    </port>
+    <port name="out_4">
+      <connection port="system:playback_4" />
+    </port>
+    <port name="out_5">
+      <connection port="system:playback_5" />
+    </port>
+    <port name="out_6">
+      <connection port="system:playback_6" />
+    </port>
+    <port name="out_7">
+      <connection port="system:playback_7" />
+    </port>
+    <port name="out_8">
+      <connection port="system:playback_8" />
+    </port>
+    <port name="out_9">
+      <connection port="system:playback_9" />
+    </port>
+    <port name="out_10">
+      <connection port="system:playback_10" />
+    </port>
+    <port name="out_11">
+      <connection port="system:playback_11" />
+    </port>
+    <port name="out_12">
+      <connection port="system:playback_12" />
+    </port>
+    <port name="out_13">
+      <connection port="system:playback_13" />
+    </port>
+    <port name="out_14">
+      <connection port="system:playback_14" />
+    </port>
+    <port name="out_15">
+      <connection port="system:playback_15" />
+    </port>
+    <port name="out_16">
+      <connection port="system:playback_16" />
+    </port>
+    <port name="out_17">
+      <connection port="system:playback_17" />
+    </port>
+    <port name="out_18">
+      <connection port="system:playback_18" />
+    </port>
+    <port name="out_19">
+      <connection port="system:playback_19" />
+    </port>
+    <port name="out_20">
+      <connection port="system:playback_20" />
+    </port>
+    <port name="out_21">
+      <connection port="system:playback_21" />
+    </port>
+    <port name="out_22">
+      <connection port="system:playback_22" />
+    </port>
+    <port name="out_23">
+      <connection port="system:playback_23" />
+    </port>
+    <port name="out_24">
+      <connection port="system:playback_24" />
+    </port>
+    <port name="out_25">
+      <connection port="system:playback_25" />
+    </port>
+    <port name="out_26">
+      <connection port="system:playback_26" />
+    </port>
+    <port name="out_27">
+      <connection port="system:playback_27" />
+    </port>
+    <port name="out_28">
+      <connection port="system:playback_28" />
+    </port>
+    <port name="out_29">
+      <connection port="system:playback_29" />
+    </port>
+    <port name="out_30">
+      <connection port="system:playback_30" />
+    </port>
+    <port name="out_31">
+      <connection port="system:playback_31" />
+    </port>
+    <port name="out_32">
+      <connection port="system:playback_32" />
+    </port>
+    <port name="out_33">
+      <connection port="system:playback_33" />
+    </port>
+    <port name="out_34">
+      <connection port="system:playback_34" />
+    </port>
+    <port name="out_35">
+      <connection port="system:playback_35" />
+    </port>
+    <port name="out_36">
+      <connection port="system:playback_36" />
+    </port>
+    <port name="out_37">
+      <connection port="system:playback_37" />
+    </port>
+    <port name="out_38">
+      <connection port="system:playback_38" />
+    </port>
+    <port name="out_39">
+      <connection port="system:playback_39" />
+    </port>
+    <port name="out_40">
+      <connection port="system:playback_40" />
+    </port>
+    <port name="out_41">
+      <connection port="system:playback_41" />
+    </port>
+    <port name="out_42">
+      <connection port="system:playback_42" />
+    </port>
+    <port name="out_43" />
+    <port name="out_44" />
+    <port name="out_45" />
+    <port name="out_46" />
+    <port name="out_47" />
+    <port name="out_48" />
+    <port name="out_49" />
+    <port name="out_50" />
+    <port name="out_51" />
+    <port name="out_52" />
+    <port name="out_53" />
+    <port name="out_54" />
+    <port name="out_55" />
+    <port name="out_56" />
+    <port name="out_57" />
+    <port name="out_58" />
+    <port name="out_59" />
+    <port name="out_60" />
+    <port name="out_61" />
+    <port name="out_62" />
+    <port name="out_63" />
+    <port name="out_64" />
+  </client>
+  <client name="pure_data">
+    <port name="output_1">
+      <connection port="litespat:in_5" />
+      <connection port="zita-rev1:in.L" />
+    </port>
+    <port name="output_2">
+      <connection port="litespat:in_6" />
+      <connection port="zita-rev1:in.R" />
+    </port>
+    <port name="output_3">
+      <connection port="litespat:in_7" />
+      <connection port="zita-rev1:in.L" />
+    </port>
+    <port name="output_4">
+      <connection port="litespat:in_8" />
+      <connection port="zita-rev1:in.R" />
+    </port>
+    <port name="output_5">
+      <connection port="litespat:in_9" />
+      <connection port="zita-rev1:in.L" />
+    </port>
+    <port name="output_6">
+      <connection port="litespat:in_10" />
+      <connection port="zita-rev1:in.R" />
+    </port>
+    <port name="output_7">
+      <connection port="litespat:in_11" />
+      <connection port="zita-rev1:in.L" />
+    </port>
+    <port name="output_8">
+      <connection port="litespat:in_12" />
+      <connection port="zita-rev1:in.R" />
+    </port>
+  </client>
+  <client name="litespat">
+    <port name="out_1">
+      <connection port="AllRADecoder:in_1" />
+    </port>
+    <port name="out_2">
+      <connection port="AllRADecoder:in_2" />
+    </port>
+    <port name="out_3">
+      <connection port="AllRADecoder:in_3" />
+    </port>
+    <port name="out_4">
+      <connection port="AllRADecoder:in_4" />
+    </port>
+    <port name="out_5">
+      <connection port="AllRADecoder:in_5" />
+    </port>
+    <port name="out_6">
+      <connection port="AllRADecoder:in_6" />
+    </port>
+    <port name="out_7">
+      <connection port="AllRADecoder:in_7" />
+    </port>
+    <port name="out_8">
+      <connection port="AllRADecoder:in_8" />
+    </port>
+    <port name="out_9">
+      <connection port="AllRADecoder:in_9" />
+    </port>
+    <port name="out_10">
+      <connection port="AllRADecoder:in_10" />
+    </port>
+    <port name="out_11">
+      <connection port="AllRADecoder:in_11" />
+    </port>
+    <port name="out_12">
+      <connection port="AllRADecoder:in_12" />
+    </port>
+    <port name="out_13">
+      <connection port="AllRADecoder:in_13" />
+    </port>
+    <port name="out_14">
+      <connection port="AllRADecoder:in_14" />
+    </port>
+    <port name="out_15">
+      <connection port="AllRADecoder:in_15" />
+    </port>
+    <port name="out_16">
+      <connection port="AllRADecoder:in_16" />
+    </port>
+    <port name="out_17">
+      <connection port="AllRADecoder:in_17" />
+    </port>
+    <port name="out_18">
+      <connection port="AllRADecoder:in_18" />
+    </port>
+    <port name="out_19">
+      <connection port="AllRADecoder:in_19" />
+    </port>
+    <port name="out_20">
+      <connection port="AllRADecoder:in_20" />
+    </port>
+    <port name="out_21">
+      <connection port="AllRADecoder:in_21" />
+    </port>
+    <port name="out_22">
+      <connection port="AllRADecoder:in_22" />
+    </port>
+    <port name="out_23">
+      <connection port="AllRADecoder:in_23" />
+    </port>
+    <port name="out_24">
+      <connection port="AllRADecoder:in_24" />
+    </port>
+    <port name="out_25">
+      <connection port="AllRADecoder:in_25" />
+    </port>
+    <port name="out_26">
+      <connection port="AllRADecoder:in_26" />
+    </port>
+    <port name="out_27">
+      <connection port="AllRADecoder:in_27" />
+    </port>
+    <port name="out_28">
+      <connection port="AllRADecoder:in_28" />
+    </port>
+    <port name="out_29">
+      <connection port="AllRADecoder:in_29" />
+    </port>
+    <port name="out_30">
+      <connection port="AllRADecoder:in_30" />
+    </port>
+    <port name="out_31">
+      <connection port="AllRADecoder:in_31" />
+    </port>
+    <port name="out_32">
+      <connection port="AllRADecoder:in_32" />
+    </port>
+    <port name="out_33">
+      <connection port="AllRADecoder:in_33" />
+    </port>
+    <port name="out_34">
+      <connection port="AllRADecoder:in_34" />
+    </port>
+    <port name="out_35">
+      <connection port="AllRADecoder:in_35" />
+    </port>
+    <port name="out_36">
+      <connection port="AllRADecoder:in_36" />
+    </port>
+  </client>
+  <client name="quest_effects">
+    <port name="out_1">
+      <connection port="litespat:in_1" />
+      <connection port="zita-rev1:in.L" />
+    </port>
+    <port name="out_2">
+      <connection port="litespat:in_2" />
+      <connection port="zita-rev1:in.R" />
+    </port>
+    <port name="out_3">
+      <connection port="litespat:in_3" />
+      <connection port="zita-rev1:in.L" />
+    </port>
+    <port name="out_4">
+      <connection port="litespat:in_4" />
+      <connection port="zita-rev1:in.R" />
+    </port>
+  </client>
+  <client name="zita-rev1">
+    <port name="out.L">
+      <connection port="AllRADecoder:in_1" />
+      <connection port="AllRADecoder:in_3" />
+    </port>
+    <port name="out.R">
+      <connection port="AllRADecoder:in_2" />
+      <connection port="AllRADecoder:in_4" />
+    </port>
+  </client>
+</jack>
+</aj-snapshot>
