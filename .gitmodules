@@ -1,0 +1,3 @@
+[submodule "MUSI 7100 Research/spatial-auditory-feedback"]
+	path = MUSI 7100 Research/spatial-auditory-feedback
+	url = https://github.com/emurray2/spatial-auditory-feedback.git
